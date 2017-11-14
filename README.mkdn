@@ -14,6 +14,19 @@ https://akane.blue/gallery
 - めんどかったら当該画像を示してIssue投げて下さい。
 - mastodonでmention投げられてもたぶん対応しますが最悪通知欄の彼方に流されて忘れることが有ります。
 
+### Template
+
+```html
+                <div class="card">
+                    <a class="lightbox" href="img/4423e50fa831966b.jpg">
+                        <img class="card-img-top" src="img/4423e50fa831966b.jpg">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><a href="https://mstdn.maud.io/@hota/7108758" target="_blank">https://mstdn.maud.io/@hota/7108758</a></p>
+                    </div>
+                </div>
+```
+
 ## Author
 
 ### hota/lindwurm
