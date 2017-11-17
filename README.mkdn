@@ -11,6 +11,7 @@ https://akane.blue/gallery
 ## Contribution
 
 - `img/` 以下に画像を投げて、`index.html` に投稿日時順になるようにテンプレ通り差し込んでPull Request投げて下さい。
+    - `img/thumbnail/` は 長辺600px, jpg, 品質80% くらいで生成してます
 - めんどかったら当該画像を示してIssue投げて下さい。
 - mastodonでmention投げられてもたぶん対応しますが最悪通知欄の彼方に流されて忘れることが有ります。
 
