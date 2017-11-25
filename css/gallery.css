@@ -1,13 +1,12 @@
 body {
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     min-height: 100vh;
-    font: normal 16px sans-serif;
+    font-size: 16px;
 }
 
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
     color: #58595a;
 }
