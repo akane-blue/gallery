@@ -29,7 +29,7 @@
             {% for akane in akanes %}
                 <div class="card">
                     <a class="lightbox" href="img/{{ akane.image }}">
-                        <img class="card-img-top" src="img/thumbnail/{{ akane.image }}">
+                        <img class="card-img-top" src="img/thumbnail/{{ akane.image | regex_replace('\..*$', '.jpg') }}">
                     </a>
                     <div class="card-body">
                         <p class="card-text"><a href="{{ akane.source_url }}" target="_blank">{{ akane.source_url }}</a></p>
