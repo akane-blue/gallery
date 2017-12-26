@@ -14,5 +14,6 @@ with open(GALLERY_JSON, 'r') as f:
     akanes=json.load(f)
 
 html = template.render(akanes=akanes)
-print('Content-Type: text/html; charset=utf-8\n')
-print(html.encode('utf-8'))
+
+with open("index.html", "w") as f:
+    f.write(html)

@@ -26,18 +26,16 @@
     <div class="tz-gallery">
 
             <div class="card-columns">
-
             {% for akane in akanes %}
                 <div class="card">
                     <a class="lightbox" href="img/{{ akane.image }}">
                         <img class="card-img-top" src="img/thumbnail/{{ akane.image }}">
                     </a>
                     <div class="card-body">
-                        <p class="card-text"><a href="{{ akane.src }}" target="_blank">{{ akane.src }}</a></p>
+                        <p class="card-text"><a href="{{ akane.source_url }}" target="_blank">{{ akane.source_url }}</a></p>
                     </div>
                 </div>
             {% endfor %}
-
             </div><!-- /.card-columns -->
     </div>
 
