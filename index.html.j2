@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="lindwurm">
+
+    <title>Akane</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+
+</head>
+
+<body>
+
+<div class="container gallery-container">
+    <h1>Gallery</h1>
+    <p class="text-center"><a href="https://akane.blue/" class="btn btn-secondary"><i class="icon-back"></i></a></p>
+    <div class="tz-gallery">
+
+            <div class="card-columns">
+            {% for akane in akanes %}
+                <div class="card">
+                    <a class="lightbox" href="img/{{ akane.image }}">
+                        <img class="card-img-top" src="img/thumbnail/{{ akane.image | regex_replace('\..*$', '.jpg') }}">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text"><a href="{{ akane.source_url }}" target="_blank">{{ akane.source_url }}</a></p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div><!-- /.card-columns -->
+    </div>
+
+    <p class="text-center"><a href="" class="btn btn-secondary"><i class="icon-top"></i></a></p>
+    <p class="text-center"><a href="https://akane.blue/" class="btn btn-secondary"><i class="icon-back"></i></a></p>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+  baguetteBox.run('.tz-gallery');
+</script>
+
+</body>
+</html>
+
