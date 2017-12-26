@@ -23,6 +23,8 @@ https://akane.blue/gallery
 
 反しないと思う範囲でご自由に描いたり召喚したりしてください。
 
+- [Akane-Blue/getAkane](https://github.com/Akane-Blue/getAkane)
+
 ## Author
 
 ### hota/lindwurm
