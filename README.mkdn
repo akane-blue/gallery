@@ -10,23 +10,18 @@ https://akane.blue/gallery
 
 ## Contribution
 
-- `img/` 以下に画像を投げて、`index.html` に投稿日時順になるようにテンプレ通り差し込んでPull Request投げて下さい。
-    - `img/thumbnail/` は 長辺600px, jpg, 品質80% くらいで生成してます
-- めんどかったら当該画像を示してIssue投げて下さい。
+- `list.txt` にトゥートのURLを示して[ぷるぷる](https://github.com/Akane-Blue/gallery/pulls)してください。
 - mastodonでmention投げられてもたぶん対応しますが最悪通知欄の彼方に流されて忘れることが有ります。
 
-### Template
+## License/copyright
 
-```html
-                <div class="card">
-                    <a class="lightbox" href="img/4423e50fa831966b.jpg">
-                        <img class="card-img-top" src="img/thumbnail/4423e50fa831966b.jpg">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-text"><a href="https://mstdn.maud.io/@hota/7108758" target="_blank">https://mstdn.maud.io/@hota/7108758</a></p>
-                    </div>
-                </div>
-```
+各画像に関する権利はそれぞれの投稿者に帰属します。
+
+藍川茜のキャラクター本体については [Good Boy License](https://icons8.com/good-boy-license/) が適用されます。
+
+> Please do whatever your mom would approve of.
+
+反しないと思う範囲でご自由に描いたり召喚したりしてください。
 
 ## Author
 
