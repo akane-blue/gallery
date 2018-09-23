@@ -1,10 +1,10 @@
-# gallery
+# [gallery](https://github.com/Akane-Blue/gallery)
 
 ｱｶﾈﾁｬﾝｶﾜｲｲﾔｯﾀｰ
 
 ## About
 
-https://akane.blue/gallery
+https://g.akane.blue
 
 藍川茜のギャラリーです。
 
