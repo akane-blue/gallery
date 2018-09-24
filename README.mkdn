@@ -4,9 +4,9 @@
 
 ## About
 
-https://g.akane.blue
-
-藍川茜のギャラリーです。
+- [https://g.akane.blue](https://g.akane.blue)
+- [藍川茜](https://akane.blue/) のギャラリーです。
+- リポジトリ内に画像を持つのはやめました。
 
 ## Contribution
 
