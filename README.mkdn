@@ -4,9 +4,9 @@
 
 ## About
 
-https://g.akane.blue
-
-藍川茜のギャラリーです。
+- [https://g.akane.blue](https://g.akane.blue)
+- [藍川茜](https://akane.blue/) のギャラリーです。
+- リポジトリ内に画像を持つのはやめました。
 
 ## Contribution
 
@@ -17,13 +17,9 @@ https://g.akane.blue
 
 各画像に関する権利はそれぞれの投稿者に帰属します。
 
-藍川茜のキャラクター本体については [Good Boy License](https://icons8.com/good-boy-license/) が適用されます。
+藍川茜のキャラクターとそれらを用いることについては [ガイドライン](https://wiki.maud.io/akane/guideline) を参照の上、これに反しない範囲でご自由に描いたり作ったりができます。
 
-> Please do whatever your mom would approve of.
-
-反しないと思う範囲でご自由に描いたり召喚したりしてください。
-
-- [Akane-Blue/getAkane](https://github.com/Akane-Blue/getAkane)
+カスタムオーダーメイド3D2で召喚する際は [Akane-Blue/getAkane](https://github.com/Akane-Blue/getAkane) もどうぞ。
 
 ## Author
 
